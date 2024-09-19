@@ -5,7 +5,8 @@ export default defineNuxtConfig({
   ssr: false,
   runtimeConfig: {
     public: {
-      socketUrl: process.env.SOCKET_URL || "http://localhost:9000",
+      socketUrl:
+        process.env.SOCKET_URL || "https://wss.alert-system.astrago.de/",
     },
   },
   plugins: [
