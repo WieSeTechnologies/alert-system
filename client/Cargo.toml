@@ -13,5 +13,11 @@ readme = "README.md"
 # ===== DEPENDENCIES =====
 
 [dependencies]
+anyhow = "1.0.89"
+dotenvy = "0.15.7"
+notify-rust = "4.11.3"
+rodio = "0.19.0"
+rust_socketio = { version = "0.6.0", features = ["async"] }
+tokio = { version = "1.40.0", features = ["full"] }
 tracing = "0.1.40"
 tracing-subscriber = "0.3.18"
